@@ -1,0 +1,7 @@
+#Launch the simulation
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+#Launch Nav2:
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
+#Run your script:
+ros2 run your_package_name obstacle_avoidance_nav

@@ -1,0 +1,8 @@
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
+#run the subscriber_node
+ros2 run my_package subscriber_node
+#run the publisher
+ros2 run my_package publisher_node
+

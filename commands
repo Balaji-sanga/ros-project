@@ -1,0 +1,4 @@
+#run turtlesim
+ros2 run turtlesim turtlesim_node
+# run turtle in zigzag
+ros2 run your_package_name zigzag_cleaner.py
